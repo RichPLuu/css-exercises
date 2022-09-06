@@ -1,7 +1,21 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  margin: 0px 52px;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 img {
@@ -12,27 +26,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  padding: 32px;
-  justify-content: center;
-}
 
-.plants {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.barberry, .chilli, .pepper, .saffron{
-  display: flex;
-  width: 200px;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0px 52px 0px 52px; /* Change to gap */
-}
-
-.text {
-  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */

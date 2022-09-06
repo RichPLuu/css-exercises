@@ -17,6 +17,8 @@ body {
 
   display: flex;
   justify-content: space-between;
+  padding: 8px;
+
 
 }
 
@@ -59,15 +61,19 @@ ul {
   list-style-type: none;
 
   display: flex;
-  justify-content: space-between;
-
+  gap: 10px
 }
 
 .left-side {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .right-side {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+
 }

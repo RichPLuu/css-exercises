@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  
 }
 
 .modal {
@@ -20,6 +22,37 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .icon {
@@ -31,8 +64,11 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
+
+  
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .close-button {
